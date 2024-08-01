@@ -1,12 +1,17 @@
 # EFI-SONOMA-HPZBOOK15G3
-Opencore EFI Folder for Hp Zbook 15 G3 with Hakintosh Sonoma 14.6
-!! USE AT YOUR OWN RISK - IM NOT A PROFESSIONNAL - YOU CAN GET YOUR APPLE ID LOCKED IF YOU DO NOT INSTALL IT CORRECTLY THEN SIGN IN !! 
-
+- Opencore EFI Folder for Hp Zbook 15 G3 with Hakintosh Sonoma 14.6
+- !! USE AT YOUR OWN RISK - IM NOT A PROFESSIONNAL - YOU CAN GET YOUR APPLE ID LOCKED IF YOU DO NOT INSTALL IT CORRECTLY THEN SIGN IN !! 
+- Please read and understand [dortiana's guide here]() before using these
+- 
 # REPOSITORY CONTENT
 
+- EFI Folder
+- Readme.md
+- Screenshots
+  
 # PREREQUIES
 
-## I- HARDWARE I USED
+## I - HARDWARE I USED
   - CPU : Intel Core i7-6700HQ
   - iGPU : Intel HD 530 (Nvidia card disabled in BIOS settings)
   - RAM : 16Gb DDR4 2133Mhz
@@ -32,9 +37,11 @@ Opencore EFI Folder for Hp Zbook 15 G3 with Hakintosh Sonoma 14.6
   
 ## III - TOOLS NEEDED
 
-- [OpencorePKG]() for /macrecovery (please check [dortiana's guide here]()
+- [OpencorePKG]() for /macrecovery (please check [dortiana's guide here]() )
 - [ProperTree]() for editing your config.plist and set your own SMBIOS values
-- [GenBiosSMC]() for generating SMBIOS values
+- [GenSMBIOS]() for generating SMBIOS values
+- USB Stick (+4gb)
+- Python3 or newer
 
 # IV WHAT'S WORKING
 
@@ -46,3 +53,21 @@ Opencore EFI Folder for Hp Zbook 15 G3 with Hakintosh Sonoma 14.6
 - iServices ( iMessages issues fixed with itlwn.kext and Heliport )
 - Bluetooth
 - Sleeping issues fixed in my case
+
+# V - How to use 
+
+- Use Disk manager or Rufus to make your USB stick ready to go ( Check [dortiana's guide]() )
+- Drag "EFI" folder to the root ( / ) of your USB stick
+- Generate your recovery files with OpencorePKG 
+
+- copy the folder that's been generated to the root of your USB stick
+- open ProperTree and GenSMBIOS
+- Genrate values for MacBookPro15,2 and copy them into your config.plist using ProperTree ( Again, check [dortiana's guide here]() if needed )
+- Boot from USB Stick and select "YOURUSB(dmg)"
+- Install MacOS Sonnoma
+
+# VI - ISSUES I ENCOUNTERED 
+
+- For WiFi support, please install and use [Heliport]()
+
+
