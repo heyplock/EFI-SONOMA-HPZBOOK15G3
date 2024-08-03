@@ -3,7 +3,7 @@
 - !! USE AT YOUR OWN RISK - IM NOT A PROFESSIONNAL - YOU CAN GET YOUR APPLE ID LOCKED IF YOU DO NOT INSTALL IT CORRECTLY THEN SIGN IN !! 
 - Please read and understand [dortiana's guide here]() before using these
 
-  ![](/EFI-SONOMA-HPZBOOK15G3/Screenshots/Sonoma.png?raw=true "")
+![Sonoma](https://github.com/user-attachments/assets/0c4fc6a4-2c06-4924-a6a5-8030d6745bca)
 
 # REPOSITORY CONTENT
 
