@@ -2,7 +2,9 @@
 - Opencore EFI Folder for Hp Zbook 15 G3 with Hakintosh Sonoma 14.6
 - !! USE AT YOUR OWN RISK - IM NOT A PROFESSIONNAL - YOU CAN GET YOUR APPLE ID LOCKED IF YOU DO NOT INSTALL IT CORRECTLY THEN SIGN IN !! 
 - Please read and understand [dortiana's guide here]() before using these
-- 
+
+  ![](/EFI-SONOMA-HPZBOOK15G3/Screenshots/Sonoma.png?raw=true "")
+
 # REPOSITORY CONTENT
 
 - EFI Folder
