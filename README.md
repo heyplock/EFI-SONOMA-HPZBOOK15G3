@@ -39,15 +39,15 @@
   
 ## III - TOOLS NEEDED
 
-- [OpencorePKG]() for /macrecovery (please check [dortiana's guide here]() )
-- [ProperTree]() for editing your config.plist and set your own SMBIOS values
-- [GenSMBIOS]() for generating SMBIOS values
+- [OpencorePKG](https://github.com/acidanthera/OpenCorePkg) for /macrecovery (please check [dortiana's guide here](https://dortania.github.io/OpenCore-Install-Guide/) )
+- [ProperTree](https://github.com/corpnewt/ProperTree) for editing your config.plist and set your own SMBIOS values
+- [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) for generating SMBIOS values
 - USB Stick (+4gb)
 - Python3 or newer
 
 # IV WHAT'S WORKING
 
-- WiFi (using [Heliport]() app)
+- WiFi (using [Heliport](https://github.com/OpenIntelWireless/HeliPort) app)
 - Bright
 - Function buttons for brightness & sound
 - Graphics acceleration
@@ -58,18 +58,18 @@
 
 # V - How to use 
 
-- Use Disk manager or Rufus to make your USB stick ready to go ( Check [dortiana's guide]() )
+- Use Disk manager or Rufus to make your USB stick ready to go ( Check [dortiana's guide](https://dortania.github.io/OpenCore-Install-Guide/) )
 - Drag "EFI" folder to the root ( / ) of your USB stick
 - Generate your recovery files with OpencorePKG 
 
 - copy the folder that's been generated to the root of your USB stick
 - open ProperTree and GenSMBIOS
-- Genrate values for MacBookPro15,2 and copy them into your config.plist using ProperTree ( Again, check [dortiana's guide here]() if needed )
+- Genrate values for MacBookPro15,2 and copy them into your config.plist using ProperTree ( Again, check [dortiana's guide here](https://dortania.github.io/OpenCore-Install-Guide/) if needed )
 - Boot from USB Stick and select "YOURUSB(dmg)"
 - Install MacOS Sonnoma
 
 # VI - ISSUES I ENCOUNTERED 
 
-- For WiFi support, please install and use [Heliport]()
+- For WiFi support, please install and use [Heliport](https://github.com/OpenIntelWireless/HeliPort)
 
 
